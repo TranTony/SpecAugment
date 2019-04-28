@@ -19,7 +19,7 @@ sys.path.append("..")
 from SpecAugment import spec_augment
 
 parser = argparse.ArgumentParser(description='Spec Augment')
-parser.add_argument('--audio-path', default='./data/61-70970-0007.wav',
+parser.add_argument('--audio-path', default='./data/61-70968-0002.wav',
                     help='The audio file.')
 
 args = parser.parse_args()
