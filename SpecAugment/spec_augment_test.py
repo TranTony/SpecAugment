@@ -14,6 +14,8 @@
 
 import argparse
 import librosa
+import sys
+sys.path.append("..")
 from SpecAugment import spec_augment
 
 parser = argparse.ArgumentParser(description='Spec Augment')
